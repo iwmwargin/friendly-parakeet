@@ -11,7 +11,7 @@ var symbols = "`~!@#$%^&*()_-=+/.,<>?;:'][}{";
 function generatePassword() {
 
   var password = "";
-  var passwordChar = uppercase + lowercase + numbers + symbols;
+  var passwordChar = "";
   // Prompt that will retrieve character length
   var length = prompt("How many characters would you like your password to be? (Pick between 8 and 128 characters)");
 
@@ -26,22 +26,22 @@ function generatePassword() {
       var confirmLowercase = confirm("Will this contain Lowercase letters?");
 
       if (confirmNumber) {
-        password += numbers;
+        passwordChar += numbers;
       }
 
 
       if (confirmSymbol) {
-        password += symbols;
+        passwordChar += symbols;
       }
 
 
       if (confirmUppercase) {
-        password += uppercase;
+        passwordChar += uppercase;
       }
 
       
       if (confirmLowercase) {
-        password += lowercase;
+        passwordChar += lowercase;
       }
 
       if (
