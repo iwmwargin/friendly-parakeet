@@ -12,3 +12,4 @@ A website that creates a randomly generated password according to certain user s
 https://iwmwargin.github.io/friendly-parakeet/
 
 ## Images of Website
+<img src=".assets/images/empty.png">
