@@ -17,3 +17,6 @@ Blank Website
 
 Website with RG Password
 <img src="https://github.com/iwmwargin/friendly-parakeet/blob/main/assets/images/Password.png">
+
+### Contribution
+Made by Eric Wargin
